@@ -20,7 +20,6 @@ The project is structured to have a **backend** powered by Flask to handle the l
 - **Backend**: Flask (Python)
 - **Frontend**: HTML, CSS, JavaScript
 - **Version Control**: Git, GitHub
-- **Others**: Bootstrap for responsive design, jQuery for DOM manipulation
 
 ### Prerequisites
 
