@@ -2,16 +2,6 @@
 
 This application allows users to check the strength of their passwords based on various criteria. It is built using **Flask**, **HTML**, **CSS**, and **JavaScript** for the front-end and back-end functionalities.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Project Overview
 
 Password Strength Checker 2.0 is designed to provide an easy-to-use interface for users to evaluate the strength of their passwords. The app checks password strength based on several factors like length, use of uppercase and lowercase letters, numbers, and special characters. 
