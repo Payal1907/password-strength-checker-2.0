@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Checker</h1>
+        <p class="subtitle">Check how strong your password is!</p>
+        <div class="password-container">
+            <input 
+                type="password" 
+                id="password" 
+                placeholder="Enter your password" 
+                autocomplete="off">
+            <button id="toggle-password" onclick="togglePassword()" class="eye-btn">
+                <img id="eye-icon" src="https://img.icons8.com/ios-filled/50/000000/invisible.png" alt="eye icon">
+            </button>
+        </div>
+        <button onclick="checkStrength()">Check Strength</button>
+        <div id="strength-indicator" class="strength"></div>
+        
+        <!-- New Box for Cryptography Rules -->
+        <div class="info-box">
+            <a href="https://en.wikipedia.org/wiki/Password_policy" target="_blank">Learn Password Rules</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 All Rights Reserved | Created by <strong>Payal Singh</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
